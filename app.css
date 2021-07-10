@@ -19,6 +19,11 @@
     margin-left:-17%;
     border-radius:15px;
 }
+
+.leftsidebar{
+    position: left;
+    color:black;
+}
 .center p{
     margin:1%;
     font-weight:normal;
