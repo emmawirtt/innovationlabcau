@@ -27,18 +27,26 @@
 
 .one {
   background-color: grey;
+    margin-right:15px;
+    marign-bottom:15px;
 }
 
 .two {
   background-color: grey;
+    margin-bottom:15px;
+
 }
 
 .three {
   background-color: grey;
+        margin-right:15px;
+
 }
 
 .four {
   background-color: grey;
+        
+
 }
 
     
