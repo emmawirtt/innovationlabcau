@@ -19,7 +19,12 @@
     margin-left:-17%;
     border-radius:15px;
 }
+.topimage{
+    position:fixed;
+    right:15px;
+}
 
+    
 
 body {
     font-family: "Lato", sans-serif;
