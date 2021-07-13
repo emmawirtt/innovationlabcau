@@ -12,7 +12,8 @@
 .center{
     position:absolute;
     top:230px;
-        align-items:center;
+    background-color:rgba(160,180,205,.2);
+    align-items:center;
     width:34%;
     height:20%;
     left:50%;
