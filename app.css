@@ -19,6 +19,12 @@
     margin-left:-17%;
     border-radius:15px;
 }
+.header{
+    position:relative;
+}
+.firsttxt{
+    position:absolute;
+}
 
 
 
