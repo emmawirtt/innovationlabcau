@@ -20,10 +20,13 @@
     border-radius:15px;
 }
 .header{
-    position:relative;
+    margin: 3%;
+            position: relative;
 }
 .firsttxt{
-    position:absolute;
+    position: absolute;
+            top: 17px;
+            left: 50px;
 }
 
 
