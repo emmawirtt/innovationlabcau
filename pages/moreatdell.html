@@ -158,7 +158,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Jane Doe</h3>
           <p class="w3-opacity">CEO & Founder</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          <p><button class="w3-button w3-sand w3-block">Contact</button></p>
         </div>
       </div>
     </div>
@@ -170,7 +170,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Mike Ross</h3>
           <p class="w3-opacity">Art Director</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          <p><button class="w3-button w3-sand w3-block">Contact</button></p>
         </div>
       </div>
     </div>
@@ -182,7 +182,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>John Doe</h3>
           <p class="w3-opacity">Designer</p>
           <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-          <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+          <p><button class="w3-button w3-sand w3-block">Contact</button></p>
         </div>
       </div>
     </div>
@@ -208,35 +208,21 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
 
 <script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function currentDiv(n) {
-  showDivs(slideIndex = n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demodots");
-  if (n > x.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = x.length} ;
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-white", "");
-  }
-  x[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " w3-white";
-}
-</script>
-
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
 </body>
 </html
 
