@@ -10,7 +10,8 @@
     color:white;
 }
 .center{
-        top:230px;
+    position: absolute;
+    top:230px;
     background-color:rgba(30,65,150,.85);
     align-items:center;
     width:34%;
