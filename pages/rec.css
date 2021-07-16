@@ -10,19 +10,21 @@
     color:white;
 }
 .center{
-    position: absolute;
+    position:absolute;
     top:230px;
-    background-color:rgba(30,65,150,.85);
+    background:rgba(65, 65, 61, 0.74);
     align-items:center;
-    width:34%;
-    height:20%;
-    
+    left:50%;
+    right:30%;
+    margin-left:-17%;
     border-radius:15px;
-    padding: 2%;
+    padding:2%;
 }
 .toppic{
     margin: 3%;
             position: relative;
+            top: 17px;
+            left: 50px;
 }
 .firsttxt{
     position: absolute;
