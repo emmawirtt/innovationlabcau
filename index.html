@@ -1,190 +1,430 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-<title>The Innovation Lab</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="app.css">
-<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Home</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
 </head>
+
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light shadow-sm bg-light fixed-top">
-  <div class="container"> <a class="navbar-brand d-flex align-items-center" href="#">
 
-  <img src="imgpsh_mobile_save.jpg" height="70px">
-  </a> <button class="navbar-toggler navbar-toggler-right border-0" type="button" data-toggle="collapse" data-target="#navbar4">
-  <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
 
+      <h1 class="logo"><a href="index.html">CAU INNOVATION LAB</a></h1>
 
-  <div class="collapse navbar-collapse" id="navbar4">
-  <ul class="navbar-nav mr-auto pl-lg-4">
-  <li class="nav-item px-lg-2 active"> <a class="nav-link" href="index.html"> <span class="d-inline-block d-lg-none icon-width"><i class="fas fa-home"></i></span>Home</a> </li>
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="pages/resources.html"><span class="d-inline-block d-lg-none icon-width"><i class="fas fa-spa"></i></span>Resources</a> </li>
-  <li class="nav-item px-lg-2"> <a class="nav-link" href="pages/thd.html"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>The Home Depot</a> </li>
-    <li class="nav-item px-lg-2"> <a class="nav-link" href="pages/moreatdell.html"><span class="d-inline-block d-lg-none icon-width"><i class="far fa-user"></i></i></span>More at Dell</a> </li>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto" href="resources.html">Resources</a></li>
+          <li><a class="nav-link scrollto" href="homedepot.html">The Home Depot</a></li>
+          <li><a class="nav-link scrollto " href="moreatdell.html">More at Dell</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
 
+    </div>
+  </header><!-- End Header -->
 
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
 
-  </div>
-  </div>
-  </nav>
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
+      <div class="carousel-inner" role="listbox">
 
-<div class="rows" id="box-search">
-    <div class="thumbnail text-center">
-        <img src="annie-spratt-QckxruozjRg-unsplash.jpg" width="100%" class="img-responsive">
-        <div class="caption">
-            <h1 class="maintext">Welcome to the Innovation Lab</h1>
-            <p class="subtext">Stay and explore the resources, certifications, learning lessons, and
-                opportunities at Dell and Home Depot. The tools throughout this landing page
-                were created to help you build your personal brand and assist
-                you through your next steps in life. Whether it is becoming a coding expert
-                or starting a small business, this landing page will help you get there.
-                Now what are you doing still reading this, go explore and have fun! </p>
+        <!-- Slide -->
+        <div class="carousel-item active" style="background-image: url(assets/img/annie-spratt-QckxruozjRg-unsplash.jpg)">
+          <div class="carousel-container">
+            <div class="container">
+              <h2 class="animate__animated animate__fadeInDown">Welcome to the Innovation Lab<span></span></h2>
+              <p class="animate__animated animate__fadeInUp">Stay and explore the resources, certifications, learning lessons, and opportunities at Dell and Home Depot. The tools throughout this landing page were created to help you build your personal brand and assist you through your next steps in life. Whether it is becoming a coding expert or a small business expert, this landing page will help you get there. Now what are you doing still reading this, go explore and have fun!</p>
+              <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+            </div>
+          </div>
         </div>
+
+
+      </div>
+
     </div>
-</div>
+  </section><!-- End Hero -->
 
-<br>
-<br>
-<h1 class="maintexts" >Certifications</h1>
-<div class="container">
-  <div class="row">
-    <div class="col"><a href="https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers"><img src="Images/midland-linkedin.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://www.thewindowsclub.com/microsoft-word-tutorial-for-beginners#:~:text=Microsoft%20Word%20tutorial%20for%20beginners%201%20%5D%20Title,...%2010%20%5D%20Help.%20...%20More%20items...%20"><img src="Images/PowerPoint Logo.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://www.linkedin.com/learning/financial-basics-everyone-should-know"><img src="Images/Microsoft.png" width="100%" class="borderimg"></a></div>
-    <div class="w-100"></div>
-    <div class="col"><a href="https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers"><img src="Images/midland-linkedin.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://support.microsoft.com/en-us/office/excel-video-training-9bc05390-e94c-46af-a5b3-d7c22f6990bb"><img src="Images/Excel-Logo.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://www.linkedin.com/learning/financial-basics-everyone-should-know"><img src="Images/Microsoft.png" width="100%" class="borderimg"></a></div>
-    <div class="w-100"></div>
-    <div class="col"><a href="https://www.linkedin.com/learning/the-six-morning-habits-of-high-performers"><img src="Images/midland-linkedin.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://support.microsoft.com/en-us/office/powerpoint-for-windows-training-40e8c930-cb0b-40d8-82c4-bd53d3398787"><img src="Images/Microsoft-Word.png" width="100%" class="borderimg"></a></div>
-    <div class="col"><a href="https://www.linkedin.com/learning/financial-basics-everyone-should-know"><img src="Images/Microsoft.png" width="100%" class="borderimg"></a></div>
-  </div>
-</div>
+  <main id="main">
 
-<div class="containers">
-<div class="container">
-  <div class="row">
-    <div class="col"><img src="Images/MYellowHat.jpg" width="100%" class="borderimg"></div>
-    <div class="col"><h1>Successful Student</h1><h2>Feedback</h2><br><p> I had little coding and collaboration experience prior to this project,
-      <br> and the course really helped. I learned how to merge, pull, and push on
-      <br> GitHub as well as how to properly  commit my code without messing 
-      <br>  with the rest of my team's work. Additionally, I was able to learn a 
-      <br> new coding language so quickly! Most importantly, learning GitHub
-      <br> provides me with a new skill that I can put on my resume.</p></div>
-  </div>
-</div>
-</div>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
 
-<br>
-<br>
-<br>
+        <div class="section-title">
+          <h2>About</h2>
+          <p>About Dell Innovation Lab</p>
+        </div>
 
-<!--Moonshot Goals-->
-<h1 class="maintexts">Dell's 2030 Moonshot Goals</h1>
-<div class="container">
-  <div class="row">
-    <div class="col"><a href="https://corporate.delltechnologies.com/en-us/social-impact/advancing-sustainability.htm"><img src="Images/sustainability1.JPG" width="100%" height="90%" class="borderimg"></a></div>
-    <div class="col"><a href="https://corporate.delltechnologies.com/en-us/social-impact/transforming-lives.htm"><img src="Images/kids.jpg" width="100%" height="90%" class="borderimg"></a></div>
-    <div class="col"><a href="https://corporate.delltechnologies.com/en-us/social-impact/cultivating-inclusion.htm#scroll=off"><img src="Images/Capture3.JPG" width="100%" height="90%" class="borderimg"></a></div>
-    <div class="col"><a href="https://corporate.delltechnologies.com/en-us/social-impact/upholding-ethics-and-privacy.htm"><img src="Images/ethics1.JPG" width="100%" height="90%" class="borderimg"></a></div>
-    <div class="w-100"></div>
-    <div class="col"><h5>ADVANCING SUSTAINABILITY </h5></div>
-    <div class="col"><h5>TRANSFORMING LIVES</h5></div>
-    <div class="col"><h5>CULTIVATING INCLUSION</h5></div>
-    <div class="col"><h5>UPHOLDING ETHICS & PRIVACY</h5></div>
-    <div class="w-100"></div>
-    <div class="col"><p> 1:1 recyling/reuse </p></div>
-    <div class="col"><p> 1 billion better </p></div>
-    <div class="col"><p> 50/50 gender representation </p></div>
-    <div class="col"><p> Putting you in the driver's seat </p></div>
-  </div>
-</div>
-<br>
-<br>
-<br>
+        <div class="row content">
+          <div class="col-lg-6">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua.
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+              <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
+              <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
+            </ul>
+                    <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
 
-<!--Twitter and Calendar-->
-<h1 class="maintexts">Keep up with CAU</h1>
-<div class="containers">
-<div class="sidebar">
-    <a class="twitter-timeline" data-width="500" data-height="900" data-theme="light" href="https://twitter.com/CAU?ref_src=twsrc%5Etfw">Tweets by CAU</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <div class=" col-md-12 col-sm-12 well pull-right-lg" style="border:0px solid">
+                  <div class="col-md-12" style="padding:0px;">
+                    <br>
 
-  </div>
-</div> -->
+                      <!-- <table class="table table-bordered table-style table-responsive">
+                        <tr>
+                          <th colspan="2"><a href="?ym=<?php echo $prev; ?>"><span class="glyphicon glyphicon-chevron-left"></span></a></th>
+                          <th colspan="3"> Jan - 2021</th>
+                          <th colspan="2"><a href="?ym=<?php echo $next; ?>"><span class="glyphicon glyphicon-chevron-right"></span></a></th>
+                        </tr>
+                        <tr>
+                          <th>S</th>
+                          <th>M</th>
+                          <th>T</th>
+                          <th>W</th>
+                          <th>T</th>
+                          <th>F</th>
+                          <th>S</th>
+                        </tr>
+                        <tr>
+                          <td>1</td>
+                          <td>2</td>
+                          <td>3</td>
+                          <td>4</td>
+                          <td>5</td>
+                          <td>6</td>
+                          <td>7</td>
+                        </tr>
+                        <tr>
+                          <td>8</td>
+                          <td>9</td>
+                          <td>10</td>
+                          <td>11</td>
+                          <td class="today">12</td>
+                          <td>13</td>
+                          <td>14</td>
+                        </tr>
+                        <tr>
+                          <td>15</td>
+                          <td>16</td>
+                          <td>17</td>
+                          <td>18</td>
+                          <td>19</td>
+                          <td>20</td>
+                          <td>21</td>
+                        </tr>
+                         <tr>
+                          <td>22</td>
+                          <td>23</td>
+                          <td>24</td>
+                          <td>25</td>
+                          <td>26</td>
+                          <td>27</td>
+                          <td>28</td>
+                        </tr>
+                          <tr>
+                          <td>29</td>
+                          <td>30</td>
+                          <td>31</td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
 
-<!--For the Subscribe Table-->
-<div>
-  <div class="container">
-    <div class="row">
-      <div class="col"><h1>Subscribe to learn more </h1><br><button class="button">Subscribe</button>
+                        <!--?php
+                          foreach ($weeks as $week) {
+                            echo $week;
+                          };
+                        ?-->
+                      </table> -->
+
+                  </div>
+                </div>
+
+          </div>
+        </div>
+
       </div>
-      <div class="col"><img src="Images/laptop.jpg" width="100%" class="borderimg"></div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>certifications</h2>
+          <p>Top Featured Learning</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><img src="assets/img/Microsoft-Word-16.24-icon.png" width="100%"></div>
+              <h4><a href="">Microsoft Word</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+            <div class="icon"><img src="assets/img/Excel-Logo.png" width="100%"></div>
+              <h4><a href="">Microsoft Excel</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+            <div class="icon"><img src="assets/img/microsoft-powerpoint-logo.png" width="100%"></div>
+              <h4><a href="">Microsoft Powerpoint</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+            <div class="icon"><img src="assets/img/purepng.com-microsoft-logo-iconlogobrand-logoiconslogos-251519939091wmudn.png" width="100%"></div>
+              <h4><a href="">Microsoft Office</a></h4>
+              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+                <div class="icon"><img src="assets/img/midland-linkedin.png" width="100%"></div>
+              <h4><a href="">Linkedin</a></h4>
+              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+                <div class="icon"><img src="assets/img/c-sharp-logo-300x300.png" width="100%"></div>
+              <h4><a href="">C#</a></h4>
+              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>Successful Student Feedback</p>
+        </div>
+
+        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/entrepreneur-593358_960_720.webp" class="testimonial-img" alt="">
+                  <h3>Student 1</h3>
+                  <h4>Student</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/entrepreneur-593358_960_720.webp" class="testimonial-img" alt="">
+                  <h3>Student 2</h3>
+                  <h4>Student</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-wrap">
+                <div class="testimonial-item">
+                  <img src="assets/img/entrepreneur-593358_960_720.webp" class="testimonial-img" alt="">
+                  <h3>Student 3</h3>
+                  <h4>Student</h4>
+                  <p>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                  </p>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+    <!-- ======= Goals Section ======= -->
+    <section id="why-us" class="why-us section-bg">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row">
+
+          <div class="col-lg-5 align-items-stretch video-box" style='background-image: url("assets/img/header.jpg");' data-aos="zoom-in" data-aos-delay="100">
+
+          </div>
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+
+            <div class="content">
+              <h3> <strong>DELL 2030 MOONSHOT GOALS</strong></h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              </p>
+            </div>
+
+            <div class="accordion-list">
+              <ul>
+                <li>
+                  <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> ADVANCING SUSTAINABILITY<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                    <p>
+                      1:1 recycling/reuse
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span>TRANSFORMING LIVES<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+1 billion better lives                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> CULTIVATING INCLUSION <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+                      50/50 gender representation
+                    </p>
+                  </div>
+                </li>
+
+                <li>
+                  <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4" class="collapsed"><span>04</span> UPHOLDING ETHICS & PRIVACY <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                    <p>
+Putting you in the driver's seat                    </p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Goals Section -->
+
+    <!-- ======= Subscribe Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Get every single update you need</h3>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+mollit anim id est laborum.</p>
+          <a class="cta-btn" href="#">Subscribe Now</a>
+        </div>
+
+      </div>
+    </section><!-- End Subscribe Section -->
+
+
+
+
+
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>CAU Innovation Lab</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Dell Technologies</a>
+        <br><br><img src="assets/img/cau2.png">
+      </div>
     </div>
-  </div>
-  </div>
+  </footer><!-- End Footer -->
 
-<br>
-<br>
-
- <!-- Site footer -->
- <footer class="site-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 col-md-6">
-        <h6>About</h6>
-        <p class="text-justify">Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative  to help the upcoming programmers with the code. Scanfcode focuses on providing the most efficient code or snippets as the code wants to be simple. We will help programmers build up concepts in different programming languages that include C, C++, Java, HTML, CSS, Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.</p>
-      </div>
-
-      <div class="col-xs-6 col-md-3">
-        <h6>Categories</h6>
-        <ul class="footer-links">
-          <li><a href="http://scanfcode.com/category/c-language/">About Us</a></li>
-          <li><a href="http://scanfcode.com/category/front-end-development/">Contact Us</a></li>
-          <li><a href="http://scanfcode.com/category/back-end-development/">Terms of Use</a></li>
-          <li><a href="http://scanfcode.com/category/java-programming-language/">Legal</a></li>
-          <li><a href="http://scanfcode.com/category/android/">Privacy Policy</a></li>
-          <li><a href="http://scanfcode.com/category/templates/">Community</a></li>
-        </ul>
-      </div>
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
 
-      <div class="col-xs-6 col-md-3">
-        <h6>Quick Links</h6>
-        <ul class="footer-links">
-          <li><a href="https://www.delltechnologies.com/en-us/what-we-do/index.htm">About Us</a></li>
-          <li><a href="https://www.delltechnologies.com/en-us/contactus.htm">Contact Us</a></li>
-          <li><a href="https://www.delltechnologies.com/partner/en-us/partner/partner.htm">Partners</a></li>
-          <li><a href="https://www.dell.com/learn/us/en/uscorp1/policies-privacy">Privacy Policy</a></li>
-          <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-        </ul>
-      </div>
-    </div>
-    <hr>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-8 col-sm-6 col-xs-12">
-        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-     <a href="https://www.dell.com/learn/us/en/uscorp1/site-terms-of-use-copyright">Dell Technologies</a>.
-        </p>
-      </div>
-
-      <div class="col-md-4 col-sm-6 col-xs-12">
-        <ul class="social-icons">
-          <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-          <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-          <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-          <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
